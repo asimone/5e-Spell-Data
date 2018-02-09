@@ -1942,8 +1942,9 @@
     "level":"1st-level",
     "school":"Illusion",
     "class":"Bard, Cleric, Sorcerer, Wizard",
-    "archetype":"Cleric: Trickery",
-    "domains":"Trickery"
+    "archetype":"Cleric: Trickery<br />Ranger: Gloom Stalker",
+    "domains":"Trickery",
+	"subclass":"Gloom Stalker"
   },
   {
     "name":"Disintegrate",
@@ -2559,7 +2560,9 @@
     "casting_time":"1 action",
     "level":"3rd-level",
     "school":"Illusion",
-    "class":"Bard, Sorcerer, Warlock, Wizard"
+    "class":"Bard, Sorcerer, Warlock, Wizard",
+	"archetype":"Ranger: Gloom Stalker",
+    "subclass":"Gloom Stalker"	
 
   },
   {
@@ -3154,9 +3157,10 @@
     "level":"4th-level",
     "school":"Illusion",
     "class":"Bard, Druid, Sorcerer, Warlock, Wizard",
-    "archetype":"Druid: Underdark<br/> Warlock: Archfey",
+    "archetype":"Druid: Underdark<br/>Ranger: Gloom Stalker<br />Warlock: Archfey",
     "circles":"Underdark",
-    "patrons":"Archfey"
+    "patrons":"Archfey",
+    "subclass":"Gloom Stalker"	
   },
   {
     "name":"Greater Restoration",
@@ -5540,7 +5544,9 @@
     "casting_time":"1 action",
     "level":"2nd-level",
     "school":"Transmutation",
-    "class":"Wizard"
+    "class":"Wizard",
+	"archetype":"Ranger: Gloom Stalker",
+    "subclass":"Gloom Stalker"	
   },
   {
     "name":"Sacred Flame",
@@ -5669,8 +5675,9 @@
     "level":"5th-level",
     "school":"Illusion",
     "class":"Bard, Sorcerer, Warlock, Wizard",
-    "archetype":"Warlock: Archfey",
-    "patrons":"Archfey"
+    "archetype":"Ranger: Gloom Stalker<br />Warlock: Archfey",
+    "patrons":"Archfey",
+	"subclass":"Gloom Stalker"	
   },
   {
     "name":"Sending",
