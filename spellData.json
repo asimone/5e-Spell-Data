@@ -1757,7 +1757,7 @@
   },
   {
     "name":"Dawn",
-    "desc":"<p>You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.</p>",
+    "desc":"<p>The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot radius, 40-foot high cylinder of bright light glimmers there. This light is sunlight. </p><p>When the cylinder appears, each creature in it must make a Constitution saving throw, taking 4d10 radiant damage on a failed save, or half as much on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder. </p><p>If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn. </p>",
     "page":"XGtE 153",
     "range":"60 feet",
     "components":"V, S, M",
@@ -3889,8 +3889,7 @@
   },
   {
     "name":"Invulnerability",
-    "desc":"<p>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person. The spell ends for a target that attacks or casts a spell.</p>",
-    "higher_level":"<p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>",
+    "desc":"<p>You are immune to all damage until the spell ends. </p>",
     "page":"XGtE 160",
     "range":"Self",
     "components":"V, S, M",
@@ -4377,8 +4376,7 @@
   },
   {
     "name":"Mass Polymorph",
-    "desc":"<p>As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>",
-    "higher_level":"<p>When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.</p>",
+    "desc":"<p>You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.</p><p>Each target assumes a beast form of your choice, and you can choose the same form or different ones for each target. The new form can be any beast you have seen whose challenge rating is equal to or less than the target’s (or half the target’s level, if the target doesn’t have a challenge rating). The target’s game statistics, including mental ability scores, are replaced by the statistics of the chosen beast, but the target retains its hit points, alignment, and personality. </p><p>Each target gains a number of temporary hit points equal to the hit points of its new form. These temporary hit points can’t be replaced by temporary hit points from another source. A target reverts to its normal form when it has no more temporary hit points or it dies. If the spell ends before then, the creature loses all its temporary hit points and reverts to its normal form. </p><p>The creature is limited in the actions it can perform by the nature of its new form. It can’t speak, cast spells, or do anything else that requires hands or speech. </p><p>The target’s gear melds into the new form. The target can’t activate, use, wield, or otherwise benefit from any of its equipment. </p>",
     "page":"XGtE 160",
     "range":"120 feet",
     "components":"V, S, M",
@@ -6026,7 +6024,7 @@
   },
   {
     "name":"Soul Cage",
-    "desc":"<p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.  </p><p><b>Steal Life.</b> You can use a bonus action to drain vigor from the soul and regain 2d8 hit points. </p><p><b>Query Soul.</b> You can ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p><p><b>Borrow Experience.</b> You can use a bonus action to bolster yourself with the soul's life experience, making your next attack roll, ability check, or saving throw with advantage. If you don't use this before the start of your next turn, it is lost.  </p><p><b>Eyes of the Dead.</b>  You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.  </p><p>A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you cased.  </p>",
+    "desc":"<p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.  </p><p><b>Steal Life.</b> You can use a bonus action to drain vigor from the soul and regain 2d8 hit points. </p><p><b>Query Soul.</b> You can ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p><p><b>Borrow Experience.</b> You can use a bonus action to bolster yourself with the soul's life experience, making your next attack roll, ability check, or saving throw with advantage. If you don't use this before the start of your next turn, it is lost.  </p><p><b>Eyes of the Dead.</b>  You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.  </p><p>A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you cased.</p>",
     "page":"XGtE 165",
     "range":"60 feet",
     "components":"V, S, M",
@@ -6672,7 +6670,7 @@
   },
   {
     "name":"Tiny Servant",
-    "desc":"<p>You touch one Tiny nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. (See Xanthar's for Tiny Servant Stat block)</p><p>As a bonus action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete. </p><p>When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.</p>",
+    "desc":"<p>You touch one Tiny nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. (See Xanthar's Guide for Tiny Servant Stat block)</p><p>As a bonus action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete. </p><p>When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.</p>",
     "higher_level":"<p>When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd. </p>",
     "page":"XGtE 168",
     "range":"Touch",
@@ -7293,7 +7291,7 @@
   },
   {
     "name":"Zephyr Strike",
-    "desc":"<p>You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell’s area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.</p><p>An affected creature is aware of the fate and can avoid answering questions she would normally have responded with a lie. Such a creature can remain evasive in his answers as they remain within the limits of truth.</p>",
+    "desc":"<p>You move like the wind. Until the spell ends, your movement doesn’t provoke opportunity attacks.</p><p>Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn. </p>",
     "page":"XGtE 171",
     "range":"Self",
     "components":"V",
